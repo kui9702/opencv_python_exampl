@@ -12,7 +12,6 @@ def detect():
     for (x, y, w, h) in faces:          #画出人脸矩阵
         img = cv2.rectangle(img, (x, y), (x+w, y+h), (255, 0, 0), 2)
         f = cv2.resize(gray[y:y+h, x:x+2],(200,200))
-        cv2.imwrite('')
     cv2.imshow('Vikongs Detected!!', img)
     cv2.imwrite(r'face_check/aa.jpg', img)
     cv2.waitKey(0)
