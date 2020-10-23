@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "D:\\Users\\mozhedun\\anaconda3\\envs\\py36\\python.exe",
+    "python.pythonPath": "D:\\Users\\mozhedun\\anaconda3\\python.exe",
     "python.autoComplete.addBrackets": true,
     "python.analysis.completeFunctionParens": true
 }
